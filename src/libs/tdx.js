@@ -26,7 +26,7 @@ function createPropFile (prop, index, csdPath, tempFile, stocks) {
     stocks.forEach(function (arr, i) {
         let code = arr[0];
         // 通达信自定义数据格式：北证以2标志、上证以1标志、深证以0标志；
-        let szh = /^[6]/.test(code) ? 1 : /^[84]/.test(code) ? 2 : 0;
+        let szh = /^[6]/.test(code) ? 1 : /^[9]/.test(code) ? 2 : 0;
         let sjo = jo(path.resolve(csdPath, `./s/${ code }.json`));
         let _get = (name) => sjo.get(name) || '';
         let text = '';
