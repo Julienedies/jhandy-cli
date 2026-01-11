@@ -9,7 +9,7 @@ import ths_c from './ths_c.js'
 import ths_new from './ths_new.js'
 import ths_p from './ths_p.js'
 import ycj from './ycj.js'
-import xgb from './xgb.js'
+import xgb from './xgb2.js'
 
 const sourceMap = {
     ths_c,
