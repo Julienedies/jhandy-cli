@@ -8,7 +8,7 @@ import fetchX from './fetch'
 import jo from '../../jsono'
 
 import thsA from '../fetch/ths_a'
-import xgb2 from '../fetch/xgb2'
+import xgb2 from '../fetch/xgb'
 
 const SOURCES = ['ths_new', 'ths_p', 'ths_c', 'ycj', 'xgb'];
 
